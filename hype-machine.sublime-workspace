@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
+				"bor",
+				"border"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"bg",
+				"bgc\tbackground-color: #${1:fff};"
+			],
+			[
 				"avatar",
 				"avatarSize"
 			],
 			[
 				"not",
 				"noteObj"
-			],
-			[
-				"te",
-				"templateUrl"
 			],
 			[
 				"co",
@@ -38,10 +54,6 @@
 			[
 				"Tag",
 				"tagComponent"
-			],
-			[
-				"p",
-				"popular"
 			],
 			[
 				"in",
@@ -275,6 +287,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1291,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/app.css",
+			"settings":
+			{
+				"buffer_size": 1726,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/fabiogeneral/Documents/FG Personal/fgeneral.me/index.html",
+			"settings":
+			{
+				"buffer_size": 21446,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/fabiogeneral/Developer/Code School/Blasting off with Bootstrap/bootstrap-3.3.7-dist/index.html",
+			"settings":
+			{
+				"buffer_size": 9064,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -325,6 +372,13 @@
 	],
 	"file_history":
 	[
+		"/Users/fabiogeneral/Documents/FG Personal/fgeneral.me/css/creative.css",
+		"/Users/fabiogeneral/Documents/FG Personal/fgeneral.me/index.html",
+		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/product-panels.html",
+		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/index.html",
+		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/product-title.html",
+		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/_testing/app/src/App.css",
+		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/_testing/app/src/index.css",
 		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/promises/promises.json",
 		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/promises/promises.js",
 		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/utilityFunctions/utilityFunctions.js",
@@ -346,9 +400,7 @@
 		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/templates/pages/notes/index.html",
 		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/controllers/notes-create-controller.js",
 		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/product.js",
-		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/product-panels.html",
 		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/app.js",
-		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/index.html",
 		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/controllers/notes-show-controller.js",
 		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/objectFuncionality.js",
 		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/inheritanceAndConstructors.js",
@@ -363,7 +415,6 @@
 		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/notes-show-controller.js",
 		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/notes-create-controller.js",
 		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/templates:pages:notes:/pages/notes/index.html",
-		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/product-title.html",
 		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/app.js",
 		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/app.css",
 		"/Users/fabiogeneral/Developer/Code School/Try PHP/PHP with JSON/index.php",
@@ -374,7 +425,6 @@
 		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/functionClosure.js",
 		"/Users/fabiogeneral/Library/Application Support/Sublime Text 3/Packages/DashDoc/DashDoc.sublime-settings",
 		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/_testing/app/src/App.js",
-		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/_testing/app/src/App.css",
 		"/Users/fabiogeneral/Developer/Code School/ES2015 - The Shape of JavaScript to Come/functions.js",
 		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/essays/src/component.js",
 		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/essays/public/index.html",
@@ -449,14 +499,11 @@
 		"/Users/fabiogeneral/Sites/index.html",
 		"/Users/fabiogeneral/Sites/utilityFunctions.js",
 		"/Users/fabiogeneral/Developer/_Code School/jQuery The Return Flight - Ajax/Essays/ajax/refactoringJSObjects.js",
-		"/Users/fabiogeneral/Developer/_Code School/Try jQuery/Essays/traversing.js",
-		"/Users/fabiogeneral/Developer/_Code School/jQuery The Return Flight - Ajax/Essays/ajax/ajax.js",
-		"/Users/fabiogeneral/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/Users/fabiogeneral/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings"
+		"/Users/fabiogeneral/Developer/_Code School/Try jQuery/Essays/traversing.js"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -473,6 +520,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"img",
 			"view",
 			"quote",
 			"cite",
@@ -560,8 +608,123 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								792,
+								792
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								471,
+								471
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 289.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/fabiogeneral/Documents/FG Personal/fgeneral.me/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								471,
+								562
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/fabiogeneral/Developer/Code School/Blasting off with Bootstrap/bootstrap-3.3.7-dist/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8480,
+								8526
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2600.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
