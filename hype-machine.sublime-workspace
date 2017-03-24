@@ -1,0 +1,654 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"avatar",
+				"avatarSize"
+			],
+			[
+				"not",
+				"noteObj"
+			],
+			[
+				"te",
+				"templateUrl"
+			],
+			[
+				"co",
+				"Controller"
+			],
+			[
+				"to",
+				"topicList"
+			],
+			[
+				"ta",
+				"targetElement"
+			],
+			[
+				"get",
+				"getRequest"
+			],
+			[
+				"tag",
+				"tagComponent"
+			],
+			[
+				"Tag",
+				"tagComponent"
+			],
+			[
+				"p",
+				"popular"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"tex",
+				"text-orientation"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"json",
+				"json_data"
+			],
+			[
+				"re",
+				"review"
+			],
+			[
+				"st",
+				"stars"
+			],
+			[
+				"l",
+				"label\tTag"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"weather",
+				"weatherResult"
+			],
+			[
+				"res",
+				"resultDiv"
+			],
+			[
+				"pro",
+				"promise"
+			],
+			[
+				"pre",
+				"priceify"
+			],
+			[
+				"pr",
+				"priceify"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"de",
+				"details"
+			],
+			[
+				"con",
+				"confirmation"
+			],
+			[
+				"erro",
+				"errorMesssage"
+			],
+			[
+				"er",
+				"errorType"
+			],
+			[
+				"ti",
+				"ticket"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"va",
+				"vacation"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"value",
+				"valueOf"
+			],
+			[
+				"be",
+				"beachShoe"
+			],
+			[
+				"shoe",
+				"shoeSize"
+			],
+			[
+				"c",
+				"shoeColor"
+			],
+			[
+				"letter",
+				"letterCount"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"a",
+				"aquarium"
+			],
+			[
+				"add",
+				"addCritter"
+			],
+			[
+				"m",
+				"myBox"
+			],
+			[
+				"pa",
+				"passengerNumber"
+			],
+			[
+				"ge",
+				"getSubmarineTicket"
+			],
+			[
+				"trans",
+				"transport"
+			],
+			[
+				"w",
+				"wantsRide"
+			],
+			[
+				"al",
+				"allRides"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pas",
+				"passengerList"
+			],
+			[
+				"ad",
+				"addPassenger"
+			],
+			[
+				"num",
+				"numberList"
+			],
+			[
+				"even",
+				"evenCount"
+			],
+			[
+				"pras",
+				"phrase"
+			],
+			[
+				"sum",
+				"sumOfCubes"
+			],
+			[
+				"col-",
+				"col-lg-offset-2"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"col",
+				"col-lg-offset-3"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"li",
+				"light"
+			],
+			[
+				"b",
+				"background-attachment"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Install Package Control"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/fabiogeneral/Developer/hype-machine"
+	],
+	"file_history":
+	[
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/promises/promises.json",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/promises/promises.js",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/utilityFunctions/utilityFunctions.js",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/utilityFunctions/result.json",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/ajaxFormsJSON/ajaxFormsJSON.js",
+		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/objects.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/services/note.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/services/gravatar.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/controllers/users-index-controller [w: services].js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/directives/nw-card.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/app.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/route.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/templates/directives/nw-card.html",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/controllers/notes-edit-controller.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/controllers/notes-index-controller [w: services].js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/index.html",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/services/services.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/controllers/notes-index-controller.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/templates/pages/notes/index.html",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/controllers/notes-create-controller.js",
+		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/product.js",
+		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/product-panels.html",
+		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/app.js",
+		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/index.html",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/js/controllers/notes-show-controller.js",
+		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/objectFuncionality.js",
+		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/inheritanceAndConstructors.js",
+		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/resources.js",
+		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/prototypes.js",
+		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/objectEnumeration.js",
+		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/constructorExpressionAndOverridingPrototypalProperties.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/templates/pages/notes/show.html",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/templates/pages/notes/new.html",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/route.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/notes-index-controller.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/notes-show-controller.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/notes-create-controller.js",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/templates:pages:notes:/pages/notes/index.html",
+		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/product-title.html",
+		"/Users/fabiogeneral/Developer/Code School/Staying Sharp with Angular/app.js",
+		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/app.css",
+		"/Users/fabiogeneral/Developer/Code School/Try PHP/PHP with JSON/index.php",
+		"/Users/fabiogeneral/Developer/Code School/Try PHP/index.php",
+		"/Volumes/FG/Documents/LL Isabel Rinaldi/New Site/depoimento1/index.html",
+		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/component.js",
+		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/index.html",
+		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/functionClosure.js",
+		"/Users/fabiogeneral/Library/Application Support/Sublime Text 3/Packages/DashDoc/DashDoc.sublime-settings",
+		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/_testing/app/src/App.js",
+		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/_testing/app/src/App.css",
+		"/Users/fabiogeneral/Developer/Code School/ES2015 - The Shape of JavaScript to Come/functions.js",
+		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/essays/src/component.js",
+		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/essays/public/index.html",
+		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/app/hello-world/package.json",
+		"/Users/fabiogeneral/Developer/Code School/Powering Up with React/essays/index.html",
+		"/Users/fabiogeneral/Developer/Code School/ES2015 - The Shape of JavaScript to Come/letAndConst.js",
+		"/Users/fabiogeneral/Developer/Code School/ES2015 - The Shape of JavaScript to Come/tags.json",
+		"/Users/fabiogeneral/Developer/Code School/ES2015 - The Shape of JavaScript to Come/index.html",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/promises/application.js",
+		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/products.json",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/promises/city.json",
+		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/functionExpression.js",
+		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/jsdebug.html",
+		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/returningFunctions_&_immediateInvocation.js",
+		"/Users/fabiogeneral/Developer/Code School/ES2015 - The Shape of JavaScript to Come/letAndConst.html",
+		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/arrays.js",
+		"/Users/fabiogeneral/Developer/Code School/JavaScript Road Trip/functionExpression_map.js",
+		"/Users/fabiogeneral/Sites/php/index.php",
+		"/Users/fabiogeneral/Sites/php/conditional_operators_loops.php",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/ajaxFormsJSON/book.json",
+		"/Users/fabiogeneral/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/fabiogeneral/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/fabiogeneral/Desktop/fabio.js",
+		"/Users/fabiogeneral/Documents/FG Personal/Valencia/4th Term/COP 2830C Scripting Languages/Source/The MongoDB Tutorial.html",
+		"/Users/fabiogeneral/Sites/test/app.js",
+		"/Users/fabiogeneral/Sites/test/product-panels.html",
+		"/Users/fabiogeneral/Sites/test/index.html",
+		"/Users/fabiogeneral/Sites/test/product-title.html",
+		"/Users/fabiogeneral/Developer/Code School/Shaping up with AngularJS/bootstrap.min.css",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/resources.js",
+		"/Users/fabiogeneral/Developer/Code School/Try jQuery/resources.js",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/promises/promises.html",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/promises/favorites.html",
+		"/Users/fabiogeneral/Sites/application.js",
+		"/Users/fabiogeneral/Sites/favorites.html",
+		"/Users/fabiogeneral/Sites/weather.json",
+		"/Users/fabiogeneral/Sites/city.json",
+		"/Users/fabiogeneral/Sites/promises.html",
+		"/Users/fabiogeneral/Sites/test/result.json",
+		"/Users/fabiogeneral/Sites/test/utilityFunctions.js",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/promises.json",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/promises.js",
+		"/Users/fabiogeneral/Sites/promises.js",
+		"/Users/fabiogeneral/Sites/recdrones/wp-content/themes/creatividad/style.css",
+		"/Users/fabiogeneral/Sites/recdrones/wp-content/themes/creatividad/js/js.js",
+		"/Users/fabiogeneral/Sites/recdrones/wp-content/plugins/mega_main_menu/src/css/cache.skin.css",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/ajax/ajax.html",
+		"/Users/fabiogeneral/Downloads/LL Isabel Rinaldi/Livro LL/livro/index.html",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/jQueryPlugins.html",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/jQueryPlugins.js",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/ajax/ajax.js",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/promises.html",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/ajaxFormsJSON/ajaxFormsJSON.html",
+		"/Users/fabiogeneral/Sites/ajax.js",
+		"/Users/fabiogeneral/Sites/ajax.html",
+		"/Users/fabiogeneral/Developer/Code School/jQuery The Return Flight - Ajax/ajax/refactoringJSObjects.js",
+		"/Users/fabiogeneral/Sites/index.php",
+		"/Users/fabiogeneral/Developer/_Code School/jQuery The Return Flight - Ajax/Essays/jQueryPlugins.html",
+		"/Users/fabiogeneral/Developer/_Code School/jQuery The Return Flight - Ajax/Essays/jQueryPlugins.js",
+		"/Users/fabiogeneral/Developer/_Code School/Try jQuery/Essays/styling.js",
+		"/Users/fabiogeneral/Developer/_Code School/Try jQuery/Essays/interaction.js",
+		"/Users/fabiogeneral/Developer/_Code School/Try jQuery/Essays/application.js",
+		"/Users/fabiogeneral/Developer/_Code School/Try jQuery/Essays/listening.js",
+		"/Users/fabiogeneral/Developer/_Code School/Try jQuery/Essays/resources.js",
+		"/Users/fabiogeneral/Developer/_Code School/jQuery The Return Flight - Ajax/Essays/utilityFunctions/utilityFunctions.js",
+		"/Users/fabiogeneral/Developer/_Code School/Try jQuery/Essays/jQuery.html",
+		"/Users/fabiogeneral/Developer/_Code School/jQuery The Return Flight - Ajax/Essays/ajaxFormsJSON/ajaxFormsJSON.html",
+		"/Users/fabiogeneral/Developer/_Code School/jQuery The Return Flight - Ajax/Essays/ajax/confirmation.html",
+		"/Users/fabiogeneral/Developer/_Code School/jQuery The Return Flight - Ajax/Essays/ajax/ajax.html",
+		"/Users/fabiogeneral/Developer/_Code School/jQuery The Return Flight - Ajax/Essays/ajaxFormsJSON/ajaxFormsJSON.js",
+		"/Users/fabiogeneral/Developer/_Code School/jQuery The Return Flight - Ajax/Essays/index.html",
+		"/Users/fabiogeneral/Sites/index.html",
+		"/Users/fabiogeneral/Sites/utilityFunctions.js",
+		"/Users/fabiogeneral/Developer/_Code School/jQuery The Return Flight - Ajax/Essays/ajax/refactoringJSObjects.js",
+		"/Users/fabiogeneral/Developer/_Code School/Try jQuery/Essays/traversing.js",
+		"/Users/fabiogeneral/Developer/_Code School/jQuery The Return Flight - Ajax/Essays/ajax/ajax.js",
+		"/Users/fabiogeneral/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/fabiogeneral/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/fabiogeneral/Sites/recdrones",
+			"/Users/fabiogeneral/Sites/recdrones/wp-content/themes/creatividad",
+			"/Users/fabiogeneral/Downloads/fgeneral.me/_original-files_startbootstrap-creative-gh-pages"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"view",
+			"quote",
+			"cite",
+			"\"",
+			"br",
+			"weather",
+			"creatividad-footer",
+			"mmm_fullwidth_container",
+			"\\r\\n",
+			"@media screen and (max-width: 1024px)",
+			"Sort Portfolio :",
+			"vaca",
+			"ul",
+			"div",
+			"images/",
+			"image:",
+			"image",
+			"remove",
+			"(){\n",
+			"typeof",
+			"a:",
+			"btn",
+			"email",
+			"img/he",
+			"@media",
+			"header/img",
+			"header/",
+			"header",
+			"navbar-brand",
+			"a:hover",
+			"navbar-right",
+			"collapse",
+			"navbar-collapse",
+			"navbar-toggle",
+			"navbar",
+			"navbar-toogle",
+			"navbar-default",
+			"background-color: #fff;",
+			"color:#3F7CBC",
+			"navbar-default",
+			"navbar-",
+			"navbar-toogle",
+			"navbar-default",
+			"navbar",
+			"navbar-fixed-top",
+			"background-color",
+			"background color",
+			"navbar",
+			"background-color: white;",
+			"col-xs",
+			"@media",
+			"col-",
+			"xs",
+			"services",
+			"service",
+			"diamond",
+			"full-s",
+			"full-",
+			"paper-plane",
+			"full",
+			"diamond",
+			"fa-envelope-o",
+			"services",
+			"btn-primary",
+			"rgb",
+			"portfolio-box",
+			"F05F40",
+			"btn-primary"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"city"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "hype-machine.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/php/index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
