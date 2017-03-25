@@ -1,92 +1,48 @@
 <!DOCTYPE html>
-<html lan="en">
+<html lan="en" ng-app="HypeMachine">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Hypem Machine - Front-End Test</title>
-		<link href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link href="css/app.css" rel="stylesheet">
 	</head>
-	<body>
+	<body ng-controller="FilterController as filter">
 		<div class="container-fluid search-bar">
 			<div class="row">
 				<div class="col-xs-12">
 					<p class="search">
 						<input class="form-control search-field" type="text" />
-						<a href=""><i class="glyphicon glyphicon-search search-i"></i></a>
+						<a ng-click="filter.selectTab(1)" href="#!"><i class="glyphicon glyphicon-search search-i"></i></a>
 					</p>
 				</div>
 			</div>
 		</div>
 		<div class="container-fluid filter-bar">
 			<div class="row">
-				<div class="col-xs-4 text-center filter selected">LATEST</div>
-				<div class="col-xs-4 text-center filter">LOVED</div>
-				<div class="col-xs-4 text-center filter">POSTED</div>
+				<div class="col-xs-4 text-center filter {{filter.isSelected(1)}}" ng-click="filter.selectTab(1)">
+					<a href="#!">LATEST</a>
+				</div>
+				<div class="col-xs-4 text-center filter {{filter.isSelected(2)}}" ng-click="filter.selectTab(2)">
+					<a href="#!/loved">LOVED</a>
+				</div>
+				<div class="col-xs-4 text-center filter {{filter.isSelected(3)}}" ng-click="filter.selectTab(3)">
+					<a href="#!/posted">POSTED</a>
+				</div>
 			</div>
 		</div>
 		<div class="container-fluid">
-			<div class="row request">
-				<div class="row request-img-container">
-					<div class="row request-img" style="background-image: url('img/cover.png');"></div>
-					<div class="row request-img-cover">
-						<div class="col-xs-12 request-img-btns">
-							<p>4:35</p>
-							<button>Buy</button>
-						</div>
-						<div class="col-xs-12 request-img-titles">
-							<h4>Dutch Uncles</h4>
-							<h3>Streetlight</h3>
-						</div>
-					</div>
-				</div>
-				<div class="row request-post-bar">
-					<div class="col-xs-8 request-post-first">
-						<p>posted on:&nbsp;</p>
-						<a href="cover">eletric sound of joy</a>
-					</div>
-					<div class="col-xs-4 request-post-second">
-						<p>6</p>
-						<img src="img/shared.png" />
-						<p>13</p>
-						<img src="img/loved.png" />
-					</div>
-				</div>
-				<div class="row request-comment">
-					<p>For my money the best track to surface so far from those Dutch Uncles' new LP 'Big Balloon' which is due next Friday.</p>
-				</div>
-			</div>
-			<!-- example of repeat -->
-			<div class="row request">
-				<div class="row request-img-container">
-					<div class="row request-img" style="background-image: url('img/cover2.png');"></div>
-					<div class="row request-img-cover">
-						<div class="col-xs-12 request-img-btns">
-							<p>4:35</p>
-							<button>Buy</button>
-						</div>
-						<div class="col-xs-12 request-img-titles">
-							<h4>NickHakim</h4>
-							<h3>Bet She Looks Like You</h3>
-						</div>
-					</div>
-				</div>
-				<div class="row request-post-bar">
-					<div class="col-xs-8 request-post-first">
-						<p>posted on:&nbsp;</p>
-						<a href="cover">Concrete Opinions</a>
-					</div>
-					<div class="col-xs-4 request-post-second">
-						<p>5</p>
-						<img src="img/shared.png" />
-						<p>33</p>
-						<img src="img/loved.png" />
-					</div>
-				</div>
-				<div class="row request-comment">
-					<p>From Nick Hakim's forthcoming debut album Green Twins, out 5/19 via ATO Records. <a href="">[nickhakim.com]</a></p>
-				</div>
-			</div>
+			<div ng-view></div>
 		</div>
+		<!-- vendor -->
+		<script type="text/javascript" src="js/vendor/angular.min.js"></script>
+		<script type="text/javascript" src="js/vendor/angular-route.min.js"></script>
+		<!-- js -->
+		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/route.js"></script>
+		<!-- controllers -->
+    <script type="text/javascript" src="js/controllers/request-latest-controller.js"></script>
+    <script type="text/javascript" src="js/controllers/request-loved-controller.js"></script>
+    <script type="text/javascript" src="js/controllers/request-posted-controller.js"></script>
 	</body>
 </html>

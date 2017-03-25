@@ -53,23 +53,20 @@ body {
 	background-color: white;
 }
 
-.filter {
-	border-bottom: 2px solid white;
-	color: #BCC0C8;
-	cursor: pointer;
+.filter a { /* false = deselected */
+	border-bottom: 3px solid white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px; /* 1pt bigger than layout to better vizualization */
+	color: #BCC0C8;
+	display: block;
+	letter-spacing: 2px;
 	padding: 14px;
 }
-
-.filter.selected {
+.filter a:hover,
+.filter.true a { /* true = selected */
 	border-bottom: 3px solid #01A9B3;
 	color: #2F323B;
-}
-
-.filter:hover {
-	border-bottom: 3px solid #01A9B3;
-	color: #2F323B;
+	text-decoration: none;
 }
 
 /* Request Style */
