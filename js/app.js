@@ -7,4 +7,11 @@ angular.module('HypeMachine', ['ngRoute'])
 	this.isSelected = function(checkTab) {
 		return this.tab === checkTab;
 	};
+})
+.filter('secondsToDateTime', function() {
+  return function(seconds) {
+    var d = new Date(0,0,0,0,0,0,0);
+    d.setSeconds(seconds);
+    return d;
+  };
 });

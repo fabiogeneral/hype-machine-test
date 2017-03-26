@@ -1,30 +1,31 @@
-<div class="row request">
+<div class="row request" ng-repeat="request in requests">
 	<div class="row request-img-container">
-		<div class="row request-img" style="background-image: url('img/cover.png');"></div>
-		<div class="row request-img-cover">
+		<div class="row request-img" style="background-image: url('{{request.thumb_url_large}}');"></div>
+		<div class="row request-img-cover" >
 			<div class="col-xs-12 request-img-btns">
-				<p>4:35</p>
-				<button>Buy</button>
+				<p>{{request.time | secondsToDateTime | date:'mm:ss'}}</p>
+				<p><a class="buy" ng-href="{{request.itunes_link}}">Buy</a></p>
 			</div>
 			<div class="col-xs-12 request-img-titles">
-				<h4>Dutch Uncles</h4>
-				<h3>Streetlight</h3>
+				<h4>{{request.artist}}</h4>
+				<h3>{{request.title}}</h3>
 			</div>
+		<a class="request-link" ng-href="{{request.posturl}}">imglink</a>
 		</div>
 	</div>
 	<div class="row request-post-bar">
 		<div class="col-xs-8 request-post-first">
 			<p>posted on:&nbsp;</p>
-			<a href="cover">eletric sound of joy</a>
+			<a ng-href="{{request.posturl}}">{{request.sitename}}</a>
 		</div>
 		<div class="col-xs-4 request-post-second">
-			<p>6</p>
+			<p>{{request.posted_count}}</p>
 			<img src="img/shared.png" />
-			<p>13</p>
+			<p>{{request.loved_count}}</p>
 			<img src="img/loved.png" />
 		</div>
 	</div>
 	<div class="row request-comment">
-		<p>For my money the best track to surface so far from those Dutch Uncles' new LP 'Big Balloon' which is due next Friday.</p>
+		<p>{{request.description}}</p>
 	</div>
 </div>

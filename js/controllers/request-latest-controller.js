@@ -1,8 +1,8 @@
 angular.module('HypeMachine')
-.controller('RequestLatestController', function($http, $scope) {
-	//$scope.title = "Home Page"; {{title}}
-  /*$http({method: 'GET', url: '/latest'}).success(function(data) {
-    $scope.tracks = data;
-  });*/
+.controller('RequestLatestController', function($scope, Request) {
+    Request.latest()
+  .then(function(data) {
+    $scope.requests = data.data;
+    //console.log($scope.requests);
+  });
 });
-

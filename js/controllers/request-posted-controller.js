@@ -1,7 +1,7 @@
 angular.module('HypeMachine')
-.controller('RequestPostedController', function($http, $scope) {
-  /*$http({method: 'GET', url: '/posted'}).success(function(data) {
-    $scope.tracks = data;
-  });*/
+.controller('RequestPostedController', function($scope, Request) {
+  Request.posted()
+  .then(function(data) {
+    $scope.requests = data.data;
+  });
 });
-
