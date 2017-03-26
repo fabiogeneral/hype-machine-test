@@ -1,9 +1,9 @@
-<div class="row request" ng-repeat="request in requests">
+<div class="row request" ng-repeat="request in requests | filter: searchText">
 	<div class="row request-img-container">
 		<div class="row request-img" style="background-image: url('{{request.thumb_url_large}}');"></div>
 		<div class="row request-img-cover" >
 			<div class="col-xs-12 request-img-btns">
-				<p>{{request.time | secondsToDateTime | date:'mm:ss'}}</p>
+				<p>{{request.time | secondsToDateTime | date:'m:ss'}}</p>
 				<p><a class="buy" ng-href="{{request.itunes_link}}">Buy</a></p>
 			</div>
 			<div class="col-xs-12 request-img-titles">
